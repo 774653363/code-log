@@ -10,8 +10,8 @@
 2. element-ui 2.x 及 vxe-table 2.x 都是推荐使用 scss 生成 css 文件去使用。
 
    element 有提供[在线主题编辑器](https://element.eleme.cn/#/zh-CN/theme/preview)及其 Chrome 插件，但是没啥用进去就报 500 。而且有几个 issue 是关于这个问题的，但是没有回应，应该是已经不维护了。也提供了命令行主题工具 element-theme 去生成，但 install 这个东西需要对 nodejs 版本有要求，还需要安装 python2 的依赖之类的，太恶心了。
-
-   **基于以上原因，这里建了一个 themeGen 项目，在 scss 文件设定主题色，接着使用 sass 命令生成 css，然后将 css 上传到 sample 项目中，达到变更页面主题的需求。**
+   
+   **基于以上原因，这里建了一个 [themeGen](https://github.com/774653363/code-log/tree/main/vue/2024090201/themeGen) 项目，在 scss 文件设定主题色，接着使用 sass 命令生成 css，然后将 css 上传到 [sample](https://github.com/774653363/code-log/tree/main/vue/2024090201/sample) 项目中，达到变更页面主题的需求。**
 
 ### 改进：按照这个方法得到的 css 样式。其实还是固定主题的。如果能把 scss 的变量都替换成 css 变量去生成 css 样式，就能实现 vue3 的效果了。
 
