@@ -1,0 +1,19 @@
+
+// element-ui
+/* 改变主题色变量 */
+$--color-primary: #0283a7;
+@import "./node_modules/element-ui/packages/theme-chalk/src/index";
+
+
+// vxe-table
+@import "./node_modules/vxe-table/styles/variable.scss";
+/* 改变主题色变量 */
+$vxe-primary-color: #0283a7;
+@import "./node_modules/vxe-table/styles/modules.scss";
+
+/* 自定义样式 */
+.test-title {
+  color: #0283a7;
+  font-size: 18px;
+  font-weight: bolder;
+}

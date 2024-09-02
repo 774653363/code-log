@@ -1,0 +1,34 @@
+{
+    "name": "cmc-theme-gen",
+    "version": "1.0.0",
+    "private": true,
+    "scripts": {
+        "gen": "sass ./index.scss ./index.css --no-source-map"
+    },
+    "dependencies": {
+        "vxe-table": "2.9.12",
+        "element-ui": "^2.15.14"
+    },
+    "devDependencies": {
+        "sass": "~1.32.6"
+    },
+    "eslintConfig": {
+        "root": true,
+        "env": {
+            "node": true
+        },
+        "extends": [
+            "plugin:vue/essential",
+            "eslint:recommended"
+        ],
+        "parserOptions": {
+            "parser": "babel-eslint"
+        },
+        "rules": {}
+    },
+    "browserslist": [
+        "> 1%",
+        "last 2 versions",
+        "not dead"
+    ]
+}
